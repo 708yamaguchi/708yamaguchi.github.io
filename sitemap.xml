@@ -4,14 +4,21 @@
     
     <url>
     
-      <loc>/author/admin/</loc>
+      <loc>https://708yamaguchi.github.io/author/admin/</loc>
     </url>
     
   
     
     <url>
     
-      <loc>/</loc>
+      <loc>https://708yamaguchi.github.io/author/sample/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://708yamaguchi.github.io/</loc>
       <priority>0</priority>
     </url>
     
@@ -19,7 +26,7 @@
     
     <url>
     
-      <loc>/author/</loc>
+      <loc>https://708yamaguchi.github.io/author/</loc>
       <priority>0</priority>
     </url>
     
@@ -27,7 +34,7 @@
     
     <url>
     
-      <loc>/authors/</loc>
+      <loc>https://708yamaguchi.github.io/authors/</loc>
       <priority>0</priority>
     </url>
     
@@ -35,7 +42,7 @@
     
     <url>
     
-      <loc>/categories/</loc>
+      <loc>https://708yamaguchi.github.io/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -43,14 +50,14 @@
     
     <url>
     
-      <loc>/post/</loc>
+      <loc>https://708yamaguchi.github.io/post/</loc>
     </url>
     
   
     
     <url>
     
-      <loc>/publication_types/</loc>
+      <loc>https://708yamaguchi.github.io/publication_types/</loc>
       <priority>0</priority>
     </url>
     
@@ -58,21 +65,21 @@
     
     <url>
     
-      <loc>/publication/</loc>
+      <loc>https://708yamaguchi.github.io/publication/</loc>
     </url>
     
   
     
     <url>
     
-      <loc>/talk/</loc>
+      <loc>https://708yamaguchi.github.io/talk/</loc>
     </url>
     
   
     
     <url>
     
-      <loc>/tags/</loc>
+      <loc>https://708yamaguchi.github.io/tags/</loc>
       <priority>0</priority>
     </url>
     
@@ -80,7 +87,7 @@
     
     <url>
     
-      <loc>/authors/admin/</loc>
+      <loc>https://708yamaguchi.github.io/authors/admin/</loc>
       <priority>0</priority>
     </url>
     
