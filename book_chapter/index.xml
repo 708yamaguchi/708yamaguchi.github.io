@@ -7,7 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Naoya Yamaguchi</copyright>
-    <lastBuildDate>Mon, 31 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://708yamaguchi.github.io/book_chapter/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +14,7 @@
     <item>
       <title>Daily Assistive Robot Uses a Bag for Carrying Objects with Pre-contact Sensing Gripper</title>
       <link>https://708yamaguchi.github.io/book_chapter/ias15/</link>
-      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://708yamaguchi.github.io/book_chapter/ias15/</guid>
       <description></description>
