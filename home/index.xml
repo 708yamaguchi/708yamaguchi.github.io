@@ -1,150 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on NAOYA YAMAGUCHI</title>
+    <title>Homes on Naoya Yamaguchi</title>
     <link>https://708yamaguchi.github.io/home/</link>
-    <description>Recent content in Homes on NAOYA YAMAGUCHI</description>
+    <description>Recent content in Homes on Naoya Yamaguchi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>&amp;copy; 2019 Naoya Yamaguchi</copyright>
+    <lastBuildDate>Tue, 29 Aug 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://708yamaguchi.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://708yamaguchi.github.io/home/slider/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://708yamaguchi.github.io/home/slider/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Academic</title>
-      <link>https://708yamaguchi.github.io/home/hero/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://708yamaguchi.github.io/home/hero/</guid>
-      <description>The Best Way to Create the Website You Want from Markdown (or RStudio/Jupyter)
-Build Anything with Widgets
-Star</description>
-    </item>
-    
-    <item>
-      <title>Biography</title>
       <link>https://708yamaguchi.github.io/home/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://708yamaguchi.github.io/home/about/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Skills</title>
-      <link>https://708yamaguchi.github.io/home/skills/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://708yamaguchi.github.io/home/skills/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Experience</title>
-      <link>https://708yamaguchi.github.io/home/experience/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://708yamaguchi.github.io/home/experience/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Accomplish&amp;shy;ments</title>
-      <link>https://708yamaguchi.github.io/home/accomplishments/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://708yamaguchi.github.io/home/accomplishments/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Featured Publications</title>
-      <link>https://708yamaguchi.github.io/home/publications_featured/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://708yamaguchi.github.io/home/publications_featured/</guid>
-      <description></description>
+      <description>Biography Naoya Yamaguchi is hogehoge.
+ヤマグチナオヤは、</description>
     </item>
     
     <item>
       <title>Publications</title>
       <link>https://708yamaguchi.github.io/home/publications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://708yamaguchi.github.io/home/publications/</guid>
-      <description> Quickly discover relevant content by filtering publications.
-  </description>
-    </item>
-    
-    <item>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>https://708yamaguchi.github.io/home/talks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://708yamaguchi.github.io/home/talks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recent Posts</title>
-      <link>https://708yamaguchi.github.io/home/posts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://708yamaguchi.github.io/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Awards</title>
-      <link>https://708yamaguchi.github.io/home/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://708yamaguchi.github.io/home/others/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://708yamaguchi.github.io/home/projects/</guid>
-      <description>何らかの区分け 色々ありますね。</description>
+      <guid>https://708yamaguchi.github.io/home/others/</guid>
+      <description>A-Rank and 地区優秀賞 of Japan Mathematical Olympiad (数学オリンピック), 2013  I got top 5% score (A-Rank) and participated in final round.  A-Rank and 地区優秀賞 of Japan Junior Mathematical Olympiad (ジュニア数学オリンピック), 2011  I got top 5% score (A-Rank) and participated in final round.  Final Round of Sausu-Olympic (算数オリンピック), 2007 Robotics Competition of Amazon Robotics Challenge, 2017  Stow Task: 13th, Pick Task ?? th.  Scholarship of Toyota/Dowango Scholarship for Advanced Artificial Intelligence Researcher, 2018  My research on Artificial Intelligence is highly evaluated.</description>
     </item>
     
     <item>
-      <title>Custom Section</title>
-      <link>https://708yamaguchi.github.io/home/teaching/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Experiences</title>
+      <link>https://708yamaguchi.github.io/home/experience/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://708yamaguchi.github.io/home/teaching/</guid>
-      <description>This is an example of using the custom widget to create your own homepage section.
-This section also demonstrates how to apply the background option to create an image parallax effect. Backgrounds can be applied to any section.
-  To remove this section, either delete content/home/teaching.md or edit the front matter of the file to deactivate the widget by setting active = false.</description>
-    </item>
-    
-    <item>
-      <title>Popular Topics</title>
-      <link>https://708yamaguchi.github.io/home/tags/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://708yamaguchi.github.io/home/tags/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>People</title>
-      <link>https://708yamaguchi.github.io/home/people/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://708yamaguchi.github.io/home/people/</guid>
-      <description></description>
+      <guid>https://708yamaguchi.github.io/home/experience/</guid>
+      <description>Study Abroad Program in India, 2018  Workshop with students in Indian Institute of Technology. Research presentation at Tata Consultancy Services. One week.  Study Abroad Program in America, Utah, 2010  One week home stay  Monitor of National Center Test for University Admissions (センター試験のモニター) Opening member of Z会プレアデス個人指導, 2015  Part-time job for one year  Internship at Furukawa Electric Co., Ltd. , 2016  Three weeks   etc &amp;hellip;</description>
     </item>
     
     <item>
       <title>Contact</title>
       <link>https://708yamaguchi.github.io/home/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://708yamaguchi.github.io/home/contact/</guid>
       <description></description>

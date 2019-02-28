@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>6 on Naoya Yamaguchi</title>
+    <link>https://708yamaguchi.github.io/publication_types/6/</link>
+    <description>Recent content in 6 on Naoya Yamaguchi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Naoya Yamaguchi</copyright>
+    <lastBuildDate>Mon, 31 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://708yamaguchi.github.io/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Daily Assistive Robot Uses a Bag for Carrying Objects with Pre-contact Sensing Gripper</title>
+      <link>https://708yamaguchi.github.io/book_chapter/ias15/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://708yamaguchi.github.io/book_chapter/ias15/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

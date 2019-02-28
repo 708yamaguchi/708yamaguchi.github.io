@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Domestics on Naoya Yamaguchi</title>
+    <link>https://708yamaguchi.github.io/domestic/</link>
+    <description>Recent content in Domestics on Naoya Yamaguchi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Naoya Yamaguchi</copyright>
+    
+	<atom:link href="https://708yamaguchi.github.io/domestic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>指全周に近接触覚をもつ平行グリッパによる収納袋内の物体把持</title>
+      <link>https://708yamaguchi.github.io/domestic/robomech2017/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://708yamaguchi.github.io/domestic/robomech2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
