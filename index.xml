@@ -16,7 +16,18 @@
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://708yamaguchi.github.io/iros2018/iros2018/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;img src=&#34;../../img/iros2018.jpg&#34; alt=&#34;ias15&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>指全周に近接触覚をもつ平行グリッパによる収納袋内の物体把持</title>
+      <link>https://708yamaguchi.github.io/robomech2018/robomech2018/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://708yamaguchi.github.io/robomech2018/robomech2018/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../../img/robomech2018.jpg&#34; alt=&#34;ias15&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -881,16 +892,8 @@ With Jekyll, something that looked like&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://708yamaguchi.github.io/ias15/ias15/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>指全周に近接触覚をもつ平行グリッパによる収納袋内の物体把持</title>
-      <link>https://708yamaguchi.github.io/robomech2018/robomech2018/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://708yamaguchi.github.io/robomech2018/robomech2018/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;img src=&#34;../../img/ias15.jpg&#34; alt=&#34;ias15&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -899,7 +902,8 @@ With Jekyll, something that looked like&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://708yamaguchi.github.io/robomech2019/robomech2019/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;img src=&#34;../../img/robomech2019.jpg&#34; alt=&#34;ias15&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

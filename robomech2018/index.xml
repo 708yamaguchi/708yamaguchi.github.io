@@ -7,6 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Naoya Yamaguchi</copyright>
+    <lastBuildDate>Sat, 02 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://708yamaguchi.github.io/robomech2018/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +15,7 @@
     <item>
       <title>指全周に近接触覚をもつ平行グリッパによる収納袋内の物体把持</title>
       <link>https://708yamaguchi.github.io/robomech2018/robomech2018/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://708yamaguchi.github.io/robomech2018/robomech2018/</guid>
       <description></description>
