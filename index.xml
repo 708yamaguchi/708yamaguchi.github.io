@@ -12,10 +12,10 @@
     
     <item>
       <title>A Gripper for Object Search and Grasp through Proximity Sensing</title>
-      <link>https://708yamaguchi.github.io/reviewed_conference/iros2018/</link>
+      <link>https://708yamaguchi.github.io/iros2018/iros2018/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://708yamaguchi.github.io/reviewed_conference/iros2018/</guid>
+      <guid>https://708yamaguchi.github.io/iros2018/iros2018/</guid>
       <description></description>
     </item>
     
@@ -859,19 +859,28 @@ With Jekyll, something that looked like&lt;/p&gt;
     
     <item>
       <title>Daily Assistive Robot Uses a Bag for Carrying Objects with Pre-contact Sensing Gripper</title>
-      <link>https://708yamaguchi.github.io/book_chapter/ias15/</link>
+      <link>https://708yamaguchi.github.io/ias15/ias15/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://708yamaguchi.github.io/book_chapter/ias15/</guid>
+      <guid>https://708yamaguchi.github.io/ias15/ias15/</guid>
       <description></description>
     </item>
     
     <item>
       <title>指全周に近接触覚をもつ平行グリッパによる収納袋内の物体把持</title>
-      <link>https://708yamaguchi.github.io/domestic/robomech2018/</link>
+      <link>https://708yamaguchi.github.io/robomech2018/robomech2018/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://708yamaguchi.github.io/domestic/robomech2018/</guid>
+      <guid>https://708yamaguchi.github.io/robomech2018/robomech2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>赤外線型近接覚センサを分布させた２本指ハンドにおける手探り環境の効率的探索と把持対象検知</title>
+      <link>https://708yamaguchi.github.io/robomech2019/robomech2019/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://708yamaguchi.github.io/robomech2019/robomech2019/</guid>
       <description></description>
     </item>
     

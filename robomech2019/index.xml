@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robomech2019s on Naoya Yamaguchi</title>
+    <link>https://708yamaguchi.github.io/robomech2019/</link>
+    <description>Recent content in Robomech2019s on Naoya Yamaguchi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Naoya Yamaguchi</copyright>
+    
+	<atom:link href="https://708yamaguchi.github.io/robomech2019/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>赤外線型近接覚センサを分布させた２本指ハンドにおける手探り環境の効率的探索と把持対象検知</title>
+      <link>https://708yamaguchi.github.io/robomech2019/robomech2019/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://708yamaguchi.github.io/robomech2019/robomech2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
