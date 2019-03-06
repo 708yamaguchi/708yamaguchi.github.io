@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>https://708yamaguchi.github.io/ias15/ias15/</loc>
+      <lastmod>2018-12-31T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://708yamaguchi.github.io/iros2018/iros2018/</loc>
       <lastmod>2018-10-01T00:00:00+00:00</lastmod>
     </url>
@@ -174,14 +183,6 @@
     
     <url>
     
-      <loc>https://708yamaguchi.github.io/ias15/ias15/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://708yamaguchi.github.io/tags/deep-learning/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -213,6 +214,7 @@
     <url>
     
       <loc>https://708yamaguchi.github.io/ias15/</loc>
+      <lastmod>2018-12-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
