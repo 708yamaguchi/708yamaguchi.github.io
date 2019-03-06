@@ -141,8 +141,33 @@
     
     <url>
     
+      <loc>https://708yamaguchi.github.io/book_chapter/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://708yamaguchi.github.io/categories/</loc>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://708yamaguchi.github.io/book_chapter/ias15/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://708yamaguchi.github.io/book_chapter/ias15/ias15/</loc>
     </url>
     
   
