@@ -291,9 +291,26 @@
     
     <url>
     
+      <loc>https://708yamaguchi.github.io/si2019/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://708yamaguchi.github.io/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://708yamaguchi.github.io/si2019/si2019/</loc>
     </url>
     
   
