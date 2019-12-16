@@ -7,6 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Naoya Yamaguchi</copyright>
+    <lastBuildDate>Thu, 12 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://708yamaguchi.github.io/si2019/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +15,7 @@
     <item>
       <title>ゴムモールドされた音センサによる振動認識を利用した 衝突・滑り・変形を伴う物体操作の実現</title>
       <link>https://708yamaguchi.github.io/si2019/si2019/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://708yamaguchi.github.io/si2019/si2019/</guid>
       <description></description>
