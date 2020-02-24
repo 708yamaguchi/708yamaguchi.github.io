@@ -11,6 +11,16 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Selective grasp in occluded space by all-around proximity perceptible finger</title>
+      <link>https://708yamaguchi.github.io/ras2019/ras2019/</link>
+      <pubDate>Tue, 11 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://708yamaguchi.github.io/ras2019/ras2019/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../../img/ras2019.png&#34; alt=&#34;ias15&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ゴムモールドされた音センサによる振動認識を利用した 衝突・滑り・変形を伴う物体操作の実現</title>
       <link>https://708yamaguchi.github.io/si2019/si2019/</link>
       <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
@@ -902,15 +912,6 @@ With Jekyll, something that looked like&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://708yamaguchi.github.io/book_chapter/ias15/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Daily Assistive Robot Uses a Bag for Carrying Objects with Pre-contact Sensing Gripper</title>
-      <link>https://708yamaguchi.github.io/book_chapter/ias15/ias15/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://708yamaguchi.github.io/book_chapter/ias15/ias15/</guid>
       <description></description>
     </item>
     
