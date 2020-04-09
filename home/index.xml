@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Naoya Yamaguchi</title>
@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Naoya Yamaguchi</copyright>
-    <lastBuildDate>Tue, 29 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://708yamaguchi.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,10 +15,10 @@
     <item>
       <title></title>
       <link>https://708yamaguchi.github.io/home/about/</link>
-      <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://708yamaguchi.github.io/home/about/</guid>
-      <description>Biography Naoya Yamaguchi is a master&amp;rsquo;s student in the Department of Mechano-Informatics of Graduate School of Information Science and Technology at The University of Tokyo. He received BE in Mechanical Engineering at The University of Tokyo in 2018. His research interests include sensing mechanism and manipulation strategy for daily assistive robots.</description>
+      <description>Biography Naoya Yamaguchi is a Ph.D. student in the Department of Mechano-Informatics of Graduate School of Information Science and Technology at The University of Tokyo. He received B.E. in Mechanical Engineering at The University of Tokyo in 2018. He received M.S. in Mechano-Informatics at The University of Tokyo in 2020. He receives a JSPS Research Fellowship for Young Scientists DC1. His research interests include sensing mechanism and manipulation strategy for daily assistive robots.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://708yamaguchi.github.io/home/awards/</guid>
-      <description>Final Round of Sausu-Olympic (算数オリンピック), 2007. A-Rank score at Japan Junior Mathematical Olympiad (ジュニア数学オリンピック), 2011.  I got top 5% score (A-Rank) and participated in the Final Round. I won the Outstanding Performance Award at Kansai region(地区優秀賞).  Final Round of Kagaku-no-Koshien (科学の甲子園), 2012.  Japan High School Science Championships  A-Rank score at Japan Mathematical Olympiad (数学オリンピック), 2013.  I got top 5% score (A-Rank) and participated in the Final Round.</description>
+      <description>Final Round of Sausu-Olympic (算数オリンピック), 2007. A-Rank score at Japan Junior Mathematical Olympiad (ジュニア数学オリンピック), 2011.  I got top 5% score (A-Rank) and participated in the Final Round. I won the Outstanding Performance Award at Kansai region(地区優秀賞).   Final Round of Kagaku-no-Koshien (科学の甲子園), 2012.  Japan High School Science Championships   A-Rank score at Japan Mathematical Olympiad (数学オリンピック), 2013.  I got top 5% score (A-Rank) and participated in the Final Round.</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://708yamaguchi.github.io/home/experience/</guid>
-      <description>America Global Training Program in Utah, America, 2010.  Attended an American school during my homestay.  Test Monitor of National Center Test for University Admissions (センター試験), 2015. Opening member of Z会東大個別指導教室プレアデス, 2015. Internship at Furukawa Electric Co., Ltd. , 2016.  Three weeks.  Information Science and Technology Education Program in Hyderabad and Bangalore, India, 2018.  Workshop with students in Indian Institute of Technology Hyderabad. Company visits at Infosys and Tata Consultancy Services.</description>
+      <description>America Global Training Program in Utah, America, 2010.  Attended an American school during my homestay.   Test Monitor of National Center Test for University Admissions (センター試験), 2015. Opening member of Z会東大個別指導教室プレアデス, 2015. Internship at Furukawa Electric Co., Ltd. , 2016.  Three weeks.   Information Science and Technology Education Program in Hyderabad and Bangalore, India, 2018.  Workshop with students in Indian Institute of Technology Hyderabad. Company visits at Infosys and Tata Consultancy Services.</description>
     </item>
     
     <item>
