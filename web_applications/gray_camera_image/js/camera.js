@@ -27,9 +27,9 @@ window.onload = () => {
             console.log(err.name + ": " + err.message);
         });
     // 再生可能な状態になったら自動で再生する
-    video.addEventListener('canplaythrough', function(){
-		video.play();
-    }, false);
+    // video.addEventListener('canplaythrough', function(){
+	// 	video.play();
+    // }, false);
     // 再生可能時のイベントリスナーを登録
     video.addEventListener('canplaythrough', function(){
         const ctx = canvas.getContext("2d");
