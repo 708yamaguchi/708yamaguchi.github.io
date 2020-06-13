@@ -42,22 +42,22 @@ window.onload = () => {
         ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
 
         // ImageDataの生成
-        var source = ctx.getImageData(0, 0, canvas.width, canvas.height);
+        // var source = ctx.getImageData(0, 0, canvas.width, canvas.height);
 
-        // For effect.js
-        // エフェクトの実行
-        // EffectGrayscale(source);
-        // canvasへ描画
-        // ctx.putImageData(source,0,0);
+        // // For effect.js
+        // // エフェクトの実行
+        // // EffectGrayscale(source);
+        // // canvasへ描画
+        // // ctx.putImageData(source,0,0);
 
-        // For OpenCV.js
-        let src = cv.imread("picture");
-        let dst = new cv.Mat();
-        cv.cvtColor(src, dst, cv.COLOR_RGBA2GRAY, 0);
-        // cv.threshold(dst, dst, 100, 255, cv.THRESH_OTSU);
-        cv.imshow("picture", dst);
-        src.delete();
-        dst.delete();
+        // // For OpenCV.js
+        // let src = cv.imread("picture");
+        // let dst = new cv.Mat();
+        // cv.cvtColor(src, dst, cv.COLOR_RGBA2GRAY, 0);
+        // // cv.threshold(dst, dst, 100, 255, cv.THRESH_OTSU);
+        // cv.imshow("picture", dst);
+        // src.delete();
+        // dst.delete();
 
     });
 };
