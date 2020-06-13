@@ -907,12 +907,56 @@ With Jekyll, something that looked like&lt;/p&gt;
     </item>
     
     <item>
-      <title>Daily Assistive Robot Uses a Bag for Carrying Objects with Pre-contact Sensing Gripper</title>
-      <link>https://708yamaguchi.github.io/book_chapter/ias15/</link>
+      <title></title>
+      <link>https://708yamaguchi.github.io/web_applications/gray_camera_image/html/html5_camera/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://708yamaguchi.github.io/book_chapter/ias15/</guid>
-      <description></description>
+      <guid>https://708yamaguchi.github.io/web_applications/gray_camera_image/html/html5_camera/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+
+&lt;!-- Please see --&gt;
+&lt;!-- https://blog.katsubemakito.net/html5/camera1 --&gt;
+
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta charset=&#34;UTF-8&#34;&gt;
+  &lt;title&gt;Camera Test&lt;/title&gt;
+  &lt;style&gt;
+  canvas, video{
+    border: 1px solid gray;
+  }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;HTML5カメラ&lt;/h1&gt;
+
+&lt;video id=&#34;camera&#34; width=&#34;300&#34; height=&#34;200&#34;&gt;&lt;/video&gt;
+&lt;canvas id=&#34;picture&#34; width=&#34;300&#34; height=&#34;200&#34;&gt;&lt;/canvas&gt;
+&lt;form&gt;
+  &lt;button type=&#34;button&#34; id=&#34;shutter&#34;&gt;シャッター&lt;/button&gt;
+&lt;/form&gt;
+
+&lt;audio id=&#34;se&#34; preload=&#34;auto&#34;&gt;
+  &lt;!-- We do not have audio source here --&gt;
+  &lt;source src=&#34;camera-shutter1.mp3&#34; type=&#34;audio/mp3&#34;&gt;
+&lt;/audio&gt;
+
+&lt;!-- Please see --&gt;
+&lt;!-- https://github.com/TakeshiOkamoto/effect.js --&gt;
+&lt;!-- javascript in raw.githubusercontent.com cannot be used --&gt;
+&lt;!-- https://talk.observablehq.com/t/difficulty-loading-js-function-from-raw-github/982 --&gt;
+&lt;script src=&#34;js/effect.js&#34;&gt;&lt;/script&gt;
+
+&lt;!-- Please see --&gt;
+&lt;!-- https://qiita.com/puku0x/items/8b71efa61fce72e22188 --&gt;
+&lt;script src=&#34;https://docs.opencv.org/3.4.1/opencv.js&#34;&gt;&lt;/script&gt;
+
+&lt;script src=&#34;js/camera.js&#34;&gt;&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
     </item>
     
   </channel>
