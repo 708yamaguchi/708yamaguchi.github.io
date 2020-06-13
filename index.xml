@@ -931,8 +931,9 @@ With Jekyll, something that looked like&lt;/p&gt;
 
 &lt;h1&gt;HTML5カメラ-グレー化&lt;/h1&gt;
 
-&lt;video id=&#34;camera&#34; width=&#34;300&#34; height=&#34;200&#34; autoplay muted playsinline&gt;&lt;/video&gt;
-&lt;canvas id=&#34;picture&#34; width=&#34;300&#34; height=&#34;200&#34;&gt;&lt;/canvas&gt;
+&lt;video id=&#34;camera&#34; autoplay muted playsinline&gt;&lt;/video&gt;
+&lt;canvas id=&#34;orig&#34; width=&#34;300&#34; height=&#34;300&#34;&gt;&lt;/canvas&gt;
+&lt;canvas id=&#34;processed&#34; width=&#34;300&#34; height=&#34;300&#34;&gt;&lt;/canvas&gt;
 &lt;form&gt;
   &lt;button type=&#34;button&#34; id=&#34;shutter&#34;&gt;シャッター&lt;/button&gt;
 &lt;/form&gt;
