@@ -20,9 +20,6 @@ window.onload = () => {
     navigator.mediaDevices.getUserMedia(constraints)
         .then( (stream) => {
             video.srcObject = stream;
-            video.onloadedmetadata = (e) => {
-                video.play();
-            };
         })
         .catch( (err) => {
             console.log(err.name + ": " + err.message);
@@ -35,11 +32,11 @@ window.onload = () => {
         const ctx = canvas.getContext("2d");
 
         // 演出的な目的で一度映像を止めてSEを再生する
-        video.pause();  // 映像を停止
-        se.play();      // シャッター音
-        setTimeout( () => {
-            video.play();    // 0.5秒後にカメラ再開
-        }, 500);
+        // video.pause();  // 映像を停止
+        // se.play();      // シャッター音
+        // setTimeout( () => {
+        //     video.play();    // 0.5秒後にカメラ再開
+        // }, 500);
 
         // canvasに画像を貼り付ける
         ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
