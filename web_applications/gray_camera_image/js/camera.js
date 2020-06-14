@@ -92,7 +92,7 @@ function save_clicked_images () {
     for (let i = 0; i < actions.length; i++) {
         for (let j = 0; j < ids.length; j++) {
             document.querySelector('#'+ids[j]).addEventListener(actions[i], () => {
-                saveCanvas(ids[0]);
+                saveCanvas(ids[j]);
             }, false);
         }
     }
