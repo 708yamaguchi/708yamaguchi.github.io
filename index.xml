@@ -931,21 +931,20 @@ With Jekyll, something that looked like&lt;/p&gt;
 
 &lt;h1&gt;HTML5カメラ&lt;br&gt;-白黒化とORB特徴量抽出-&lt;/h1&gt;
 
-&lt;video id=&#34;camera&#34; width=&#34;300&#34; autoplay muted playsinline&gt;&lt;/video&gt;
-&lt;canvas id=&#34;picture&#34; width=&#34;300&#34;&gt;&lt;/canvas&gt;
-&lt;br&gt;
-&lt;canvas id=&#34;camera_mono&#34; width=&#34;300&#34;&gt;&lt;/canvas&gt;
-&lt;canvas id=&#34;camera_kp&#34; width=&#34;300&#34;&gt;&lt;/canvas&gt;
-
 &lt;form&gt;
   &lt;button type=&#34;button&#34; id=&#34;shutter&#34;&gt;シャッター&lt;/button&gt;
 &lt;/form&gt;
 
 
-&lt;audio id=&#34;se&#34; preload=&#34;auto&#34;&gt;
-  &lt;!-- We do not have audio source here --&gt;
-  &lt;source src=&#34;camera-shutter1.mp3&#34; type=&#34;audio/mp3&#34;&gt;
-&lt;/audio&gt;
+&lt;video id=&#34;camera&#34; width=&#34;300&#34; autoplay muted playsinline&gt;&lt;/video&gt;
+&lt;canvas id=&#34;camera_raw&#34; width=&#34;300&#34;&gt;&lt;/canvas&gt;
+&lt;br&gt;
+&lt;canvas id=&#34;camera_mono&#34; width=&#34;300&#34;&gt;&lt;/canvas&gt;
+&lt;canvas id=&#34;camera_kp&#34; width=&#34;300&#34;&gt;&lt;/canvas&gt;
+
+&lt;!-- &lt;audio id=&#34;se&#34; preload=&#34;auto&#34;&gt; --&gt;
+&lt;!--   &lt;source src=&#34;camera-shutter1.mp3&#34; type=&#34;audio/mp3&#34;&gt; --&gt;
+&lt;!-- &lt;/audio&gt; --&gt;
 
 &lt;!-- Please see --&gt;
 &lt;!-- https://github.com/TakeshiOkamoto/effect.js --&gt;
