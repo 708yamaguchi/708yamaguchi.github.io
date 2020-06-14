@@ -90,17 +90,23 @@ var startRecording = function() {
         audio: true,
         video: false
     };
+
+    alert(222222222);
+
     // navigator.getUserMedia({audio: true}, function(stream) {
     navigator.mediaDevices.getUserMedia(constraints)
         .then( function (stream) {
             // 録音関連
+            alert(333333333);
             localMediaStream = stream;
             var scriptProcessor = audioContext.createScriptProcessor(bufferSize, 1, 1);
+            alert(4444444444);
             localScriptProcessor = scriptProcessor;
             var mediastreamsource = audioContext.createMediaStreamSource(stream);
             mediastreamsource.connect(scriptProcessor);
             scriptProcessor.onaudioprocess = onAudioProcess;
             scriptProcessor.connect(audioContext.destination);
+            alert(5555555);
 
             // 音声解析関連
             audioAnalyser = audioContext.createAnalyser();
@@ -127,5 +133,7 @@ window.onload = () => {
     // ボタンクリック時のコールバックを登録
     document.querySelector("#start").addEventListener("click", {handleEvent: startRecording});
     document.querySelector("#stop").addEventListener("click", {handleEvent: endRecording});
+
+    alert(11111111);
 
 };
