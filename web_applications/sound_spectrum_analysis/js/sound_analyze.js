@@ -80,8 +80,10 @@ var analyseVoice = function() {
 
 // 解析開始
 var startRecording = function() {
+    alert(1212121212);
     // audioContext must be created after user gesture
     if (!audioContext) {
+        const AudioContext = window.AudioContext || window.webkitAudioContext;
         audioContext = new AudioContext();
     }
 
@@ -135,5 +137,4 @@ window.onload = () => {
     document.querySelector("#stop").addEventListener("click", {handleEvent: endRecording});
 
     alert(11111111);
-
 };
