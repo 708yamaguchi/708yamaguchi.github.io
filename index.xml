@@ -933,6 +933,7 @@ With Jekyll, something that looked like&lt;/p&gt;
 
 &lt;video id=&#34;camera&#34; width=&#34;300&#34; autoplay muted playsinline&gt;&lt;/video&gt;
 &lt;canvas id=&#34;picture&#34; width=&#34;300&#34;&gt;&lt;/canvas&gt;
+&lt;br&gt;
 &lt;canvas id=&#34;camera_mono&#34; width=&#34;300&#34;&gt;&lt;/canvas&gt;
 &lt;canvas id=&#34;camera_kp&#34; width=&#34;300&#34;&gt;&lt;/canvas&gt;
 
