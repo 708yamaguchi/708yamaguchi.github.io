@@ -50,14 +50,27 @@ window.onload = () => {
         // canvasへ描画
         // ctx.putImageData(source,0,0);
 
-        // For OpenCV.js
+        // Binarize with OpenCV.js
         let src = cv.imread("picture");
         let dst = new cv.Mat();
         cv.cvtColor(src, dst, cv.COLOR_RGBA2GRAY, 0);
-        // cv.threshold(dst, dst, 100, 255, cv.THRESH_OTSU);
-        cv.imshow("picture", dst);
+        cv.threshold(dst, dst, 0, 255, cv.THRESH_OTSU);
+        cv.imshow("camera_mono", dst);
         src.delete();
         dst.delete();
 
+        // Extract ORB feature with OpenCV.js
+        let orb = new cv.ORB();
+        const img_camera = cv.imread("picture");
+        let kp_camera = new cv.KeyPointVector();
+        let dp_camera = new cv.Mat();
+        orb.detect(img_camera, kp_camera);
+        let kp_img_camera = new cv.Mat();
+        cv.drawKeypoints(img_camera, kp_camera, kp_img_camera);
+        cv.imshow("camera_kp", kp_img_camera);
+        orb.delete();
+        kp_camera.delete();
+        dp_camera.delete();
+        kp_img_camera.delete();
     });
 };

@@ -929,13 +929,17 @@ With Jekyll, something that looked like&lt;/p&gt;
 &lt;/head&gt;
 &lt;body&gt;
 
-&lt;h1&gt;HTML5カメラ-グレー化&lt;/h1&gt;
+&lt;h1&gt;HTML5カメラ&lt;br&gt;-白黒化とORB特徴量抽出-&lt;/h1&gt;
 
 &lt;video id=&#34;camera&#34; width=&#34;300&#34; autoplay muted playsinline&gt;&lt;/video&gt;
-&lt;canvas id=&#34;picture&#34; width=&#34;300&#34; height=&#34;300&#34;&gt;&lt;/canvas&gt;
+&lt;canvas id=&#34;picture&#34; width=&#34;300&#34;&gt;&lt;/canvas&gt;
+&lt;canvas id=&#34;camera_mono&#34; width=&#34;300&#34;&gt;&lt;/canvas&gt;
+&lt;canvas id=&#34;camera_kp&#34; width=&#34;300&#34;&gt;&lt;/canvas&gt;
+
 &lt;form&gt;
   &lt;button type=&#34;button&#34; id=&#34;shutter&#34;&gt;シャッター&lt;/button&gt;
 &lt;/form&gt;
+
 
 &lt;audio id=&#34;se&#34; preload=&#34;auto&#34;&gt;
   &lt;!-- We do not have audio source here --&gt;
@@ -950,7 +954,8 @@ With Jekyll, something that looked like&lt;/p&gt;
 
 &lt;!-- Please see --&gt;
 &lt;!-- https://qiita.com/puku0x/items/8b71efa61fce72e22188 --&gt;
-&lt;script src=&#34;https://docs.opencv.org/3.4.1/opencv.js&#34;&gt;&lt;/script&gt;
+&lt;!-- &lt;script src=&#34;https://docs.opencv.org/3.4.1/opencv.js&#34;&gt;&lt;/script&gt; --&gt;
+&lt;script src=&#34;https://docs.opencv.org/4.2.0/opencv.js&#34;&gt;&lt;/script&gt;
 
 &lt;script src=&#34;js/camera.js&#34;&gt;&lt;/script&gt;
 
