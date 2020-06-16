@@ -240,6 +240,7 @@ var startStreaming = function() {
 var Record = function() {
     recorded_mel_spectrums = mel_spectrums;
     last_shutter = Date.now();
+    se.play();
 };
 
 // 解析終了
