@@ -30,5 +30,15 @@
       <description>  音声解析    解析開始 -- 解析終了 --  スタート 音声登録 ストップ       </description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://708yamaguchi.github.io/web_applications/voice_shutter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://708yamaguchi.github.io/web_applications/voice_shutter/</guid>
+      <description>  Voice Shutter  canvas, video{ border: 1px solid gray; }     Voice Shutter
+-音声登録による写真撮影-  スタートを押して開始してください。  スタート 音声登録 ストップ               </description>
+    </item>
+    
   </channel>
 </rss>

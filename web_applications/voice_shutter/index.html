@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Voice Shutter</title>
+  <style>
+  canvas, video{
+    border: 1px solid gray;
+  }
+  </style>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.js">
+  </script>
+</head>
+<body>
+
+<h1>Voice Shutter<br>-音声登録による写真撮影-</h1>
+
+<p>
+  <div id="state" style="margin-bottom:10px">スタートを押して開始してください。</div>
+</p>
+
+
+<form>
+  <button type="button" style="width:100px;height:50px" id="start">スタート</button>
+  <button type="button" style="width:100px;height:50px" id="record">音声登録</button>
+  <button type="button" style="width:100px;height:50px" id="stop">ストップ</button>
+</form>
+
+<p>
+  <div style="margin-bottom:10px"></div>
+</p>
+
+<canvas id="canvas" width="300" height="300"></canvas>
+<br>
+<video id="camera" width="300" autoplay muted playsinline></video>
+<canvas id="camera_raw" width="300"></canvas>
+<br>
+<canvas id="camera_mono" width="300"></canvas>
+<canvas id="camera_kp" width="300"></canvas>
+
+<audio id="se" preload="auto">
+  <source src="audio/camera-shutter1.mp3" type="audio/mp3">
+</audio>
+
+<script src="https://docs.opencv.org/4.2.0/opencv.js"></script>
+<script src="js/camera.js"></script>
+<script src="js/sound_analyze.js"></script>
+
+</body>
+</html>
