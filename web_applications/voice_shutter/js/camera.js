@@ -77,7 +77,7 @@ function save_clicked_images () {
             saveCanvas(ids[i]);
           },
           function(){}, // 通常クリック時のコールバック
-          2000 // 長押しイベントを検知するミリ秒
+          1000 // 長押しイベントを検知するミリ秒
         );
     }
 }
