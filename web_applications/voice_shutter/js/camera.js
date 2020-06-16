@@ -1,4 +1,5 @@
 const video  = document.querySelector("#camera");
+const se = new Audio("audio/camera-shutter1.mp3");
 
 function camera_settings () {
 
@@ -35,7 +36,7 @@ function camera_settings () {
 function shutter_clicked () {
     const video  = document.querySelector("#camera");
     const canvas = document.querySelector("#camera_raw");
-    const se     = document.querySelector('#se');
+    // const se     = document.querySelector('#se');
 
     canvas.width = video.clientWidth;
     canvas.height = video.clientHeight;
