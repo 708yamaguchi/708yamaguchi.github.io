@@ -1,19 +1,18 @@
 const video  = document.querySelector("#camera");
-const se = new Audio("audio/camera-shutter1.mp3");
-const silent = new Audio("audio/silent.mp3");
-
+// const se = new Audio("audio/camera-shutter1.mp3");
 
 function shutter_clicked () {
     const video  = document.querySelector("#camera");
     const canvas = document.querySelector("#camera_raw");
-    // const se     = document.querySelector('#se');
 
     canvas.width = video.clientWidth;
     canvas.height = video.clientHeight;
     const ctx = canvas.getContext("2d");
 
+    Glayer.fadeIn('glayer', 200);
+    Glayer.fadeOut('glayer', 200);
     // 演出的な目的で一度映像を止めてSEを再生する
-    se.play();      // シャッター音
+    // se.play();      // シャッター音
     // video.pause();  // 映像を停止
     // setTimeout( () => {
     //     video.play();    // 0.5秒後にカメラ再開

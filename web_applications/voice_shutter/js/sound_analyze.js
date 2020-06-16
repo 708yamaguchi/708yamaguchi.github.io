@@ -194,7 +194,7 @@ var startStreaming = function() {
     }
 
     streaming = true;
-    silent.play(); // Enable playing audio by playing silent mp3 audio
+    // se.play();
 
     // カメラ設定
     const constraints = {

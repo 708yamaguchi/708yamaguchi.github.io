@@ -37,7 +37,7 @@
       
       <guid>https://708yamaguchi.github.io/web_applications/voice_shutter/</guid>
       <description>  Voice Shutter  canvas, video{ border: 1px solid gray; }     Voice Shutter
--音声登録による写真撮影-  スタートを押して開始してください。撮影時に音が鳴るので注意してください。  スタート 音声登録 ストップ         -- -- --      </description>
+-音声登録による写真撮影-  スタートを押して開始してください。  スタート 音声登録 ストップ               </description>
     </item>
     
   </channel>
