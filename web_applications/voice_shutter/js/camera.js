@@ -1,5 +1,6 @@
 const video  = document.querySelector("#camera");
 const se = new Audio("audio/camera-shutter1.mp3");
+const silent = new Audio("audio/silent.mp3");
 
 
 function shutter_clicked () {
