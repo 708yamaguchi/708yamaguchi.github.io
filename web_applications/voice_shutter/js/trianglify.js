@@ -4,6 +4,8 @@
 function addTriangleTo(target, width, height) {
     var dimensions = target.getClientRects()[0];
     var pattern = Trianglify({
+        width = width,
+        height = height,
         cell_size: 75,
         x_colors: 'GnBu',
         palette: Trianglify.colorbrewer,
