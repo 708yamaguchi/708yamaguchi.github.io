@@ -60,13 +60,24 @@ function saveCanvas(canvas_id)
 }
 
 function save_clicked_images () {
-    const actions = ["click", "touchstart"]; // for PC and smartphone
+    // const actions = ["click", "touchstart"]; // for PC and smartphone
+    // const ids = ["camera_raw", "camera_mono", "camera_kp"];
+    // for (let i = 0; i < actions.length; i++) {
+    //     for (let j = 0; j < ids.length; j++) {
+    //         document.querySelector('#'+ids[j]).addEventListener(actions[i], () => {
+    //             saveCanvas(ids[j]);
+    //         }, false);
+    //     }
+    // }
+
     const ids = ["camera_raw", "camera_mono", "camera_kp"];
-    for (let i = 0; i < actions.length; i++) {
-        for (let j = 0; j < ids.length; j++) {
-            document.querySelector('#'+ids[j]).addEventListener(actions[i], () => {
-                saveCanvas(ids[j]);
-            }, false);
-        }
+    for (let i = 0; i < ids.length; i++) {
+        $("#"+ids[i]).longpress(function(e) {
+            // 長押し時のコード
+            saveCanvas(ids[i]);
+          },
+          function(){}, // 通常クリック時のコールバック
+          2000 // 長押しイベントを検知するミリ秒
+        );
     }
 }

@@ -267,7 +267,7 @@ var change_state = function(state) {
     }
     else if (state == "record") {
         let state = document.querySelector("#state");
-        state.textContent = "登録した音声が聞こえたら写真を撮ります。クリックで写真を保存できます。";
+        state.textContent = "登録した音声が聞こえたら写真を撮ります。長押しで写真を保存できます。";
     }
     else if (state == "stop") {
         let state = document.querySelector("#state");
