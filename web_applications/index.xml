@@ -36,8 +36,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://708yamaguchi.github.io/web_applications/voice_shutter/</guid>
-      <description>  Voice Shutter  canvas, video{ border: 1px solid gray; }     Voice Shutter
--音声登録による写真撮影-  スタートを押して開始してください。  スタート 音声登録 ストップ                    </description>
+      <description>  Voice Shutter  canvas, video{ border: 1px solid gray; }  Voice Shutter
+-音声登録による写真撮影-      スタートを押して開始してください。   スタート 音声登録 ストップ     黒線：現在の音声スペクトル&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;赤線：録音された音声スペクトル      左上：カメラ映像&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;右上：カメラ画像&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 左下：白黒画像&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;右下：ORB特徴量             </description>
     </item>
     
   </channel>

@@ -283,7 +283,8 @@ function reflesh_page () {
     // Resize canvas
     resize_canvas(window.innerWidth);
     // Colorize webpage background
-    addTriangleTo(document.body, window.outerWidth, window.outerHeight);
+    let background = document.querySelector(".background");
+    addTriangleTo(background, background.scrollWidth, background.scrollHeight);
 }
 
 // Main code
