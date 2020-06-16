@@ -1,11 +1,9 @@
 // Please see
 // https://hacknote.jp/archives/26679/
 
-function addTriangleTo(target) {
+function addTriangleTo(target, width, height) {
     var dimensions = target.getClientRects()[0];
     var pattern = Trianglify({
-        width: dimensions.width,
-        height: dimensions.height * 2,
         cell_size: 75,
         x_colors: 'GnBu',
         palette: Trianglify.colorbrewer,
