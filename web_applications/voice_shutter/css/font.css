@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
+body {
+   margin-top:     0px;   /* 外側の余白(上側) */
+   margin-right:  15px;   /* 外側の余白(右側) */
+   margin-bottom:  0px;   /* 外側の余白(下側) */
+   margin-left:   15px;   /* 外側の余白(左側) */
+   padding: 0;            /* 内側の余白を消す(念のため) */
+}
+
 #title{
     font-family: 'Noto Sans JP', sans-serif;
 }
 
 .raw_string{
-    font-size: 24px;
+    font-size: 18px;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
