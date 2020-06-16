@@ -10,7 +10,7 @@ var recorded_mel_spectrums = false;
 var last_shutter = Date.now();
 
 // キャンバス
-var canvas = document.getElementById('canvas');
+var canvas = document.getElementById('sound_analizer');
 var canvasContext = canvas.getContext('2d');
 
 // 音声解析
@@ -100,7 +100,7 @@ var analyseVoice = function() {
     canvasContext.font = "bold 20px 'ＭＳ 明朝'";
     let lower_margin = 30;
     let right_margin = 20;
-    let left_margin = 50;
+    let left_margin = 40;
 
     // 周波数スペクトラムとx軸ラベルの描画
     canvasContext.beginPath();
@@ -120,7 +120,7 @@ var analyseVoice = function() {
         let f = Math.floor(i * fsDivN);  // index -> frequency;
         if (f > x_label_count * 5000) {
             let text = String(x_label_count * 5) + "kHz";
-            canvasContext.fillText(text, x + left_margin, canvas.height);
+            canvasContext.fillText(text, x + left_margin, canvas.height - 5);
             x_label_count = x_label_count + 1;
         }
     }
