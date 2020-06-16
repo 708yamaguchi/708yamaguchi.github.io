@@ -1,37 +1,6 @@
 const video  = document.querySelector("#camera");
 const se = new Audio("audio/camera-shutter1.mp3");
 
-function camera_settings () {
-
-    // カメラ設定
-    const constraints = {
-        audio: false,
-        video: {
-            // facingMode: "user"   // フロントカメラを利用する
-            facingMode: "environment"   // フロントカメラを利用する
-            // facingMode: { exact: "environment" }  // リアカメラを利用する場合
-        }
-    };
-
-    // カメラを<video>と同期
-    navigator.mediaDevices.getUserMedia(constraints)
-        .then( (stream) => {
-            video.srcObject = stream;
-        })
-        .catch( (err) => {
-            console.log(err.name + ": " + err.message);
-        });
-
-    // Clear canvas
-    const ids = ["camera_raw", "camera_mono", "camera_kp"];
-    for (let i = 0; i < ids.length; i++) {
-        let cvs = document.querySelector("#" + ids[i]);
-        let ctx = cvs.getContext("2d");
-        console.log(cvs);
-        ctx.clearRect(0, 0, cvs.width, cvs.height);
-    }
-
-}
 
 function shutter_clicked () {
     const video  = document.querySelector("#camera");
@@ -100,11 +69,4 @@ function save_clicked_images () {
             }, false);
         }
     }
-}
-
-function end_camera () {
-    let tracks = video.srcObject.getTracks();
-    tracks.forEach( (track) => {
-        track.stop();
-    })
 }

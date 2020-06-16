@@ -184,22 +184,39 @@ var analyseVoice = function() {
 
 // 解析開始
 var startStreaming = function() {
-    // audioContext must be created after user gesture
-    if (!audioContext) {
-        const AudioContext = window.AudioContext || window.webkitAudioContext;
-        audioContext = new AudioContext();
+    // Clear canvas
+    const ids = ["camera_raw", "camera_mono", "camera_kp"];
+    for (let i = 0; i < ids.length; i++) {
+        let cvs = document.querySelector("#" + ids[i]);
+        let ctx = cvs.getContext("2d");
+        console.log(cvs);
+        ctx.clearRect(0, 0, cvs.width, cvs.height);
     }
 
     streaming = true;
+
+    // カメラ設定
     const constraints = {
         audio: true,
-        video: false
+        video: {
+            // facingMode: "user"   // フロントカメラを利用する
+            facingMode: "environment"   // フロントカメラを利用する
+            // facingMode: { exact: "environment" }  // リアカメラを利用する場合
+        }
     };
 
     // navigator.getUserMedia({audio: true}, function(stream) {
     navigator.mediaDevices.getUserMedia(constraints)
         .then( function (stream) {
+            // カメラを<video>と同期
+            video.srcObject = stream;
+
             // 録音関連
+                // audioContext must be created after user gesture
+            if (!audioContext) {
+                const AudioContext = window.AudioContext || window.webkitAudioContext;
+                audioContext = new AudioContext();
+            }
             localMediaStream = stream;
             var scriptProcessor = audioContext.createScriptProcessor(bufferSize, 1, 1);
             localScriptProcessor = scriptProcessor;
@@ -215,8 +232,8 @@ var startStreaming = function() {
             timeDomainData = new Uint8Array(audioAnalyser.frequencyBinCount);
             mediastreamsource.connect(audioAnalyser);
         })
-        .catch( function (e) {
-            console.log(e);
+        .catch( function (err) {
+            console.log(err.name + ": " + err.message);
         });
 };
 
@@ -227,12 +244,19 @@ var Record = function() {
 
 // 解析終了
 var endStreaming = function() {
+    // end audio
     streaming = false;
-    let tracks = localMediaStream.getTracks();
-    tracks.forEach( (track) => {
+    let tracks_audio = localMediaStream.getTracks();
+    tracks_audio.forEach( (track) => {
         track.stop();
     })
     recorded_mel_spectrums = false;
+
+    // end camera
+    let tracks_camera = video.srcObject.getTracks();
+    tracks_camera.forEach( (track) => {
+        track.stop();
+    })
 };
 
 var change_state = function(state) {
@@ -257,14 +281,10 @@ var change_state = function(state) {
 // Main code
 window.onload = () => {
     // ボタンクリック時のコールバックを登録
-    // Audio start / stop
     document.querySelector("#start").addEventListener("click", {handleEvent: startStreaming});
     document.querySelector("#record").addEventListener("click", {handleEvent: Record});
     document.querySelector("#stop").addEventListener("click", {handleEvent: endStreaming});
 
-    // Camera start / stop
-    document.querySelector("#start").addEventListener("click", {handleEvent: camera_settings});
-    document.querySelector("#stop").addEventListener("click", {handleEvent: end_camera});
     // Save images when clicked
     save_clicked_images();
 
