@@ -263,7 +263,7 @@ var endStreaming = function() {
 var change_state = function(state) {
     if (state == "start") {
         let state = document.querySelector("#state");
-        state.textContent = "写真を取るトリガーとして登録したい音声を発しながら、音声登録を押してください。";
+        state.textContent = "写真を取るトリガーとして登録したい音声を発しながら、音声登録ボタンを押してください。";
     }
     else if (state == "record") {
         let state = document.querySelector("#state");
@@ -279,8 +279,22 @@ var change_state = function(state) {
     }
 }
 
+function reflesh_page () {
+    // Resize canvas
+    resize_canvas(window.innerWidth);
+    // Colorize webpage background
+    addTriangleTo(document.body);
+}
+
 // Main code
 window.onload = () => {
+    reflesh_page();
+
+    // Window is resized
+    window.addEventListener( 'resize', function() {
+        reflesh_page();
+    }, false );
+
     // ボタンクリック時のコールバックを登録
     document.querySelector("#start").addEventListener("click", {handleEvent: startStreaming});
     document.querySelector("#record").addEventListener("click", {handleEvent: Record});

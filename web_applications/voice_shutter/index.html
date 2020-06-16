@@ -21,11 +21,10 @@
   <div id="state" style="margin-bottom:10px">スタートを押して開始してください。</div>
 </p>
 
-
 <form>
-  <button type="button" style="width:100px;height:50px" id="start">スタート</button>
-  <button type="button" style="width:100px;height:50px" id="record">音声登録</button>
-  <button type="button" style="width:100px;height:50px" id="stop">ストップ</button>
+  <button class="button1 flex" type="button" style="width:100px;height:50px" id="start">スタート</button>
+  <button class="button1 flex" type="button" style="width:100px;height:50px" id="record">音声登録</button>
+  <button class="button1 flex" type="button" style="width:100px;height:50px" id="stop">ストップ</button>
 </form>
 
 <p>
@@ -47,9 +46,18 @@
 
 <script type="text/javascript" src="js/jquery.longpress.js"></script>
 
+
+
+<script src="js/trianglify.min.js"></script>
+<script src="js/trianglify.js"></script>
+
 <script src="https://docs.opencv.org/4.2.0/opencv.js"></script>
 
+
+<script src="js/resize_canvas.js"></script>
 <script src="js/camera.js"></script>
+<script src="js/sound_analyze.js"></script>
+<link rel="stylesheet" href="css/font.css" type="text/css" />
 <script src="js/sound_analyze.js"></script>
 
 </body>
