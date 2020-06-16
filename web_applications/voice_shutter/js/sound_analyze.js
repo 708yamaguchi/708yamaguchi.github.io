@@ -174,7 +174,7 @@ var analyseVoice = function() {
         diff += Math.pow(mel_spectrums[i] - recorded_mel_spectrums[i], 2);
     }
     if (diff < 150 * mel_spectrums.length && // parameter tuning is must
-        Date.now() - last_shutter > 1000) // wait 1000[ms] after the last shutter
+        Date.now() - last_shutter > 2000) // wait 2000[ms] after the last shutter
     {
         shutter_clicked();
         last_shutter = Date.now();
